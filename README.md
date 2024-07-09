@@ -31,7 +31,7 @@ Recuerde que si sus teorías de diagnóstico fueran precisas, no estaría pidien
 
 n00b en realidad no quiere los últimos 3 chracters en un nombre de archivo, quiere las extensiones de archivo, así que ¿por qué pedir los últimos 3 caracteres?
 
-    		<bob> ¿Cómo puedo hacer echo de los tres últimos caracteres de un nombre de archivo?
+    	<bob> ¿Cómo puedo hacer echo de los tres últimos caracteres de un nombre de archivo?
             <feline> If están en una variable: echo ${foo: -3}
             <feline> ¿Por qué 3 caracteres? ¿Qué es lo que realmente quieres?
             <feline> ¿Quieres la extensión?
