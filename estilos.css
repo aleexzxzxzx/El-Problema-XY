@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #18181b;
+  scrollbar-color: blue;
+}
+
+/* Cambiar scrollbar */
+body::-webkit-scrollbar {
+width: 7px;
+background-color:#18181b;;
+}
+
+body::-webkit-scrollbar-thumb{
+background-color: orange;
+
+border-right: 2px solid;
+}
+
+.header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 15px 0;
+  display: flex;
+}
+
+#links {
+  color: rgb(119, 119, 119);
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-left: 380px;
+}
+#linksAlso {
+  color: #e6ab2a;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#linksAlso:hover {
+  text-decoration: underline;
+  color: #a17a24;
+}
+
+#link-final {
+  margin-right: 5px;
+  color: #e6ab2a;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#link-final:hover {
+  text-decoration: underline;
+  color: #a17a24;
+}
+
+#links:hover {
+  color: rgb(80, 79, 79);
+}
+
+#links2 {
+  background-color: rgb(231, 231, 231);
+  font-size: 16px;
+  padding: 15px 10px;
+  margin: 12px;
+  color: rgb(119, 119, 119);
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#links2:hover {
+  color: rgb(80, 79, 79);
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+#seealso {
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+.container {
+  margin-top: -9%;
+  margin-left: 36%;
+  margin-right: 21%;
+  background-color: #18181b;
+  height: 100vh;
+  color: #fff;
+}
+
+.cuadros {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: -1000px;
+}
+
+.cuadros .content {
+  padding: 1rem 1rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  width: 17rem;
+}
+
+.content .main-Examples {
+  list-style-type: none;
+}
+
+.content .main {
+  list-style-type: none;
+}
+
+.content li a {
+  text-decoration: none;
+  color: rgb(74, 136, 190);
+  font-weight: 600;
+  list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+.content li a:hover {
+  transition: all 0.3s ease;
+  padding-left: 10px;
+  color: #000000;
+}
+
+.content .main-Examples a {
+  text-decoration: none;
+  color: #4b89be;
+  font-weight: 100;
+  list-style-type: none;
+}
+
+.cuadros {
+  padding-left: 23.9em;
+}
+
+.listaa {
+  font-size: 14px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.hljs-section {
+  font-weight: 600;
+  color: rgb(90, 11, 11);
+  text-align: left;
+}
+
+.hljs-attribute {
+  color: #18181b;
+  font-weight: 600;
+  text-align: left;
+}
+
+.hljs-variable {
+  color: rgb(230, 85, 85);
+}
+
+pre {
+  text-align: left;
+  color: #18181b;
+  padding: 1rem 1rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  width: 51.5rem;
+  margin-bottom: 15px;
+}
+
+blockquote {
+  text-align: left;
+  color: #18181b;
+  padding: 1rem 1rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  width: 51.5rem;
+  margin-bottom: 15px;
+}
+em {
+  font-weight: 500;
+}
+
+.lineaaa .final {
+  margin-top: 10px;
+  font-size: 17.5px;
+  text-size-adjust: 100%;
+  color: #000000;
+}
+
+.Titles {
+
+    position: relative;
+}
+
+.Titles::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e6ab2a;
+    transition: all 0.3s ease;
+  }
+
+.Titles:hover::after {
+    width: 100%;
+  }
